@@ -4,15 +4,15 @@ import  styles  from  "../styles/about.module.scss"
 
 
 export default function AboutPage() {
-  return (<>
+  return <>
   <header className={styles.Nav}>
    
-      <Link href="/">
-        <a className={styles.Navitem} >Home</a>
+      <Link href="/" className={styles.Navitem}>
+        Home
       </Link>
 
-      <Link href="/about">
-        <a className={styles.Navitem}>About</a>
+      <Link href="/about" className={styles.Navitem}>
+        About
       </Link>
   </header>
   <main className={styles.Main}>
@@ -32,6 +32,5 @@ Next.js frame-work provides Not Direct Support In Sass. But Add Some Exter Node.
         Alex Wachira 
      </a> 
   </footer>
-</>
-)
+</>;
 }
